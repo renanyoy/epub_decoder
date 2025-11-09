@@ -15,15 +15,15 @@ topics:
 
 dependencies:
   archive: ^4.0.7
-  equatable: ^2.0.5
+  equatable: ^2.0.7
   flutter:
     sdk: flutter
-  xml: ^6.5.0
+  xml: ^6.6.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^6.0.0
   mockito: ^5.4.4
   build_runner: ^2.4.11
 
