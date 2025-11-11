@@ -83,7 +83,7 @@ class Item extends Equatable {
         _source.find('OEBPS/$href') ??
         _source.files.firstWhereOrNull((f) => f.name.endsWith(href));
     if (file == null) {
-      throw AssertionError('File in href $href does not exists');
+      throw AssertionError('File href $href does not exists');
     }
     return file;
   }
